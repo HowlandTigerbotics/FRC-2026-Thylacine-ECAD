@@ -19,8 +19,7 @@ To push changes back to remote (this repository):
 2. Navigate to the local project folder in File Explorer, and open `Git GUI` here (shift right-click to show option).
 3. Click `Rescan` if the changed files don't show up under `Unstaged Changes`.
 4. Select files under `Unstaged Changes`, go to `Commit > Stage to Commit`, and click `Continue` if a prompt comes up.
-5. Click `Push` and then `Push` again to prompt the Github login popup.
-6. Choose the option to login in a new browser window to setup local Git credentials.
-7. Finish push, your credentials should be saved for the next push.
-
-*If you accidentally commit the changes to the local repository only, check the* `Amend Last Commit` *box to show the commit so you can push to remote.*
+5. Add a commit message, and click `Commit` to stage the file changes.
+6. Click `Push` and then `Push` again to prompt the Github login popup.
+7. Choose the option to login in a new browser window to setup local Git credentials.
+8. Finish push, your credentials should be saved for the next push.
