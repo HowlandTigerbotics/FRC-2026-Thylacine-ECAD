@@ -54,8 +54,8 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "Jeremy Siegfried",
     "ssh_key": ""
   },
   "meta": {
