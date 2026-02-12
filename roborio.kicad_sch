@@ -1,0 +1,226 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a2d9be9c-fff8-456c-8cdc-68b9283115af")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 102.87 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(uuid "a404152c-cd1c-421c-a043-53307e98cf26")
+	)
+	(label "ETH_RIO[0..7]"
+		(at 118.11 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1f96a08-3456-4d2c-8c65-ed25f7cfd71d")
+	)
+	(global_label "CANH1"
+		(shape bidirectional)
+		(at 66.04 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28ad168d-b47a-41cc-89f8-083c3fb35955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.3656 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH0"
+		(shape bidirectional)
+		(at 66.04 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47c25242-9e02-456e-8244-15db395d0f94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.3656 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RIO"
+		(shape bidirectional)
+		(at 142.24 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "982c6708-0f69-4e23-bbcd-0d77c525e650")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.9565 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_RIO-"
+		(shape input)
+		(at 66.04 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9eed2397-c653-45ed-a03f-59529ed78641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.2781 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_PIGEON+"
+		(shape bidirectional)
+		(at 66.04 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b833dc42-36da-4b58-84d9-d01e217d46e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1389 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL0"
+		(shape bidirectional)
+		(at 66.04 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d30c1af9-47ff-4bc9-85fb-ae0bca482976")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.0632 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_PIGEON-"
+		(shape bidirectional)
+		(at 67.31 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1b8d2a6-383e-483e-bba6-c9b0979be228")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.4089 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL1"
+		(shape bidirectional)
+		(at 66.04 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea2d8067-d728-4134-9c49-3c7a827313ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.0632 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_RIO+"
+		(shape input)
+		(at 66.04 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27f194a-5f07-4f63-b4a4-c1ad20562463")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.2781 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+)

@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "98b6c9ee-d540-44fc-a0fc-84d7e360cf9f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 200.66 43.18)
+		(size 50.8 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06dea5f7-c6d4-4f85-adfc-fe75a89e758b")
+		(property "Sheetname" "Power Distribution"
+			(at 200.66 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PDH.kicad_sch"
+			(at 200.66 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 118.11)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "087ded98-332f-4b9a-87e0-4f5a92cbe436")
+		(property "Sheetname" "Intake Motors"
+			(at 186.69 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Intake.kicad_sch"
+			(at 186.69 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 44.45)
+		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "115b7f02-03ea-4cd2-bb59-135ecf829041")
+		(property "Sheetname" "RoboRio"
+			(at 139.7 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "roborio.kicad_sch"
+			(at 139.7 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 27.94)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16ad86f1-6db5-4464-bd75-90907337c858")
+		(property "Sheetname" "Swerve Module 0"
+			(at 57.15 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Swerve0.kicad_sch"
+			(at 57.15 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a01d43db-7c8e-4a5a-98dd-46ee21d0572a")
+		(property "Sheetname" "Swerve Module 1"
+			(at 38.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Swerve0.kicad_sch"
+			(at 38.1 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 100.33)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7474c8e-9854-47b1-8dda-28dc2ccfe2b0")
+		(property "Sheetname" "Swerve Module 3"
+			(at 38.1 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Swerve0.kicad_sch"
+			(at 38.1 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 77.47)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5298bd4-e724-4b65-ab69-5b3c7cd5574e")
+		(property "Sheetname" "Swerve Module 2"
+			(at 39.37 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Swerve0.kicad_sch"
+			(at 39.37 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2026 Thylacine"
+				(path "/98b6c9ee-d540-44fc-a0fc-84d7e360cf9f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
