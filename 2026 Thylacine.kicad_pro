@@ -432,19 +432,19 @@
     ],
     [
       "16ad86f1-6db5-4464-bd75-90907337c858",
-      "Swerve Module 0"
+      "Swerve Module FRONT RIGHT"
     ],
     [
       "a01d43db-7c8e-4a5a-98dd-46ee21d0572a",
-      "Swerve Module 1"
+      "Swerve Module BOTTOM RIGHT"
     ],
     [
       "f5298bd4-e724-4b65-ab69-5b3c7cd5574e",
-      "Swerve Module 2"
+      "Swerve Module FRONT LEFT"
     ],
     [
       "b7474c8e-9854-47b1-8dda-28dc2ccfe2b0",
-      "Swerve Module 3"
+      "Swerve Module BOTTOM LEFT"
     ]
   ],
   "text_variables": {}
