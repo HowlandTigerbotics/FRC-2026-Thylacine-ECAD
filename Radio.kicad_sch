@@ -50,13 +50,10 @@
 		)
 		(uuid "b375a938-2022-4e1e-938b-d1b066b017ab")
 	)
-<<<<<<< HEAD
-=======
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
->>>>>>> 0e36183b0aca1a8da6c0df5f6d91ea86f079395f
 )
