@@ -5,222 +5,365 @@
 	(uuid "a2d9be9c-fff8-456c-8cdc-68b9283115af")
 	(paper "A4")
 	(lib_symbols)
-	(bus
-		(pts
-			(xy 102.87 57.15) (xy 142.24 57.15)
-		)
+	(rectangle
+		(start 101.6 35.56)
+		(end 114.3 50.8)
 		(stroke
-			(width 0.2032)
+			(width 0)
 			(type default)
 		)
-		(uuid "a404152c-cd1c-421c-a043-53307e98cf26")
+		(fill
+			(type none)
+		)
+		(uuid 2a3cecdd-21ac-4bc6-8032-4d2122e94376)
 	)
-	(label "ETH_RIO[0..7]"
-		(at 118.11 57.15 0)
+	(rectangle
+		(start 101.6 63.5)
+		(end 114.3 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74c3446b-bd7f-485d-ac6e-2bb33c54bf45)
+	)
+	(rectangle
+		(start 97.79 21.59)
+		(end 101.6 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 78fc28da-53ec-4755-889f-fa1bfd4484d4)
+	)
+	(text "RIO"
+		(exclude_from_sim no)
+		(at 107.95 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "a1f96a08-3456-4d2c-8c65-ed25f7cfd71d")
+		(uuid "5134ae6a-8e23-44df-a6d6-582bbb997c44")
 	)
-	(global_label "CANH1"
-		(shape bidirectional)
-		(at 66.04 74.93 0)
-		(fields_autoplaced yes)
+	(text "PIGEON"
+		(exclude_from_sim no)
+		(at 107.95 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "28ad168d-b47a-41cc-89f8-083c3fb35955")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3656 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "5bb51d6c-b89c-4794-b731-c4a3890ad0bf")
 	)
-	(global_label "CANH0"
-		(shape bidirectional)
-		(at 66.04 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47c25242-9e02-456e-8244-15db395d0f94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3656 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+	(junction
+		(at 99.06 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e46afab-39b9-46ca-82a0-d9273d36936a")
 	)
-	(global_label "ETH_RIO"
-		(shape bidirectional)
-		(at 142.24 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "982c6708-0f69-4e23-bbcd-0d77c525e650")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9565 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+	(junction
+		(at 100.33 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b281918f-98c0-4c0b-bb36-5be5cf9be87d")
 	)
-	(global_label "12V_RIO-"
+	(wire
+		(pts
+			(xy 100.33 25.4) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aee1963-16c4-4a7a-88e1-cc90eeadc12a")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c9ba9d-5053-487b-93e8-9e665c90d9fc")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ded4f7e-18c8-4f22-b8d1-a261f420f14c")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47de2a37-e0a2-42d8-9138-feb6c58bcb1f")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f9bd98-088c-45cb-b9e7-9230d6d8f51e")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85db92a2-b96a-4cf0-9541-766142693689")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92aab40c-3c1e-447b-82ee-0a8d7ec9e3cf")
+	)
+	(wire
+		(pts
+			(xy 99.06 25.4) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca73daa-2e41-46ac-a0ba-7a3e0a052214")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32564c6-a71a-408d-a2ad-c86d5c09dba7")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b0c4be-3e01-4100-998d-24e4cf94207a")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94a6937-70ec-46a5-9fd8-1c25b8782b56")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90ba851-cf58-4e95-9f22-a5b9935934ae")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b8b300-0114-4315-b02b-f74055f31ad5")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b5b8bc-666a-4a08-a2ea-57321a40d08c")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec9fb24-8d68-492d-9896-75552d7e0861")
+	)
+	(hierarchical_label "12V_PIGEON+"
 		(shape input)
-		(at 66.04 54.61 0)
-		(fields_autoplaced yes)
+		(at 101.6 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9eed2397-c653-45ed-a03f-59529ed78641")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.2781 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "0ef1b9b0-6acf-4049-8ed3-4b919c0dc861")
 	)
-	(global_label "12V_PIGEON+"
+	(hierarchical_label "CANL1"
 		(shape bidirectional)
-		(at 66.04 85.09 0)
-		(fields_autoplaced yes)
+		(at 101.6 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b833dc42-36da-4b58-84d9-d01e217d46e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.1389 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "166297d9-f92f-47e7-a22c-4beb12a53a7c")
 	)
-	(global_label "CANL0"
+	(hierarchical_label "CANH1"
 		(shape bidirectional)
-		(at 66.04 67.31 0)
-		(fields_autoplaced yes)
+		(at 101.6 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d30c1af9-47ff-4bc9-85fb-ae0bca482976")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.0632 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1f290fad-bf35-4e2e-856f-ca2da57d92c2")
 	)
-	(global_label "12V_PIGEON-"
-		(shape bidirectional)
-		(at 67.31 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1b8d2a6-383e-483e-bba6-c9b0979be228")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4089 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CANL1"
-		(shape bidirectional)
-		(at 66.04 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea2d8067-d728-4134-9c49-3c7a827313ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.0632 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_RIO+"
+	(hierarchical_label "LED+"
 		(shape input)
-		(at 66.04 52.07 0)
-		(fields_autoplaced yes)
+		(at 100.33 25.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f27f194a-5f07-4f63-b4a4-c1ad20562463")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.2781 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "2c3bf18c-760c-4094-b5a2-3b6d87636ca9")
+	)
+	(hierarchical_label "12V_RIO-"
+		(shape input)
+		(at 101.6 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "657bd3b5-9002-41be-a079-6a6a753ee4f2")
+	)
+	(hierarchical_label "LED-"
+		(shape input)
+		(at 99.06 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d93359-151e-41b0-b2b3-2efe2663a46b")
+	)
+	(hierarchical_label "DATA"
+		(shape input)
+		(at 101.6 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89ac8565-e079-4e5a-9140-3f7c8c064c77")
+	)
+	(hierarchical_label "CANH1"
+		(shape bidirectional)
+		(at 101.6 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fbd3569-c816-45fc-9c74-25a2efcf4187")
+	)
+	(hierarchical_label "CANH1"
+		(shape bidirectional)
+		(at 101.6 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "988e8be3-ac79-4fdb-82f3-62432a118311")
+	)
+	(hierarchical_label "CANL1"
+		(shape bidirectional)
+		(at 101.6 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a862732b-aead-4412-ae47-6a6c9c82002a")
+	)
+	(hierarchical_label "CANL1"
+		(shape bidirectional)
+		(at 101.6 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1eeac88-ca2a-45e6-9059-746edb6dc016")
+	)
+	(hierarchical_label "12V_RIO+"
+		(shape input)
+		(at 101.6 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2b6d4c2-3017-4de9-8aed-f7f4348ee3e9")
+	)
+	(hierarchical_label "12V_PIGEON-"
+		(shape input)
+		(at 101.6 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe14d279-32fa-49d0-8d42-27bbb67639cc")
 	)
 )

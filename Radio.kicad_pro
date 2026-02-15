@@ -1,14 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-    "design_settings": {
-      "defaults": {},
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {},
-      "track_widths": [],
-      "via_dimensions": []
-    },
     "ipc2581": {
       "dist": "",
       "distpn": "",
@@ -250,7 +242,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2026 Thylacine.kicad_pro",
+    "filename": "Radio.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -279,12 +271,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "ETH_RIO"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -415,40 +402,8 @@
   },
   "sheets": [
     [
-      "98b6c9ee-d540-44fc-a0fc-84d7e360cf9f",
+      "4ee7859f-5996-4ca7-9737-1bce303e29b4",
       "Root"
-    ],
-    [
-      "06dea5f7-c6d4-4f85-adfc-fe75a89e758b",
-      "Power Distribution"
-    ],
-    [
-      "087ded98-332f-4b9a-87e0-4f5a92cbe436",
-      "Intake Motors"
-    ],
-    [
-      "115b7f02-03ea-4cd2-bb59-135ecf829041",
-      "RoboRio"
-    ],
-    [
-      "16ad86f1-6db5-4464-bd75-90907337c858",
-      "Swerve Module FRONT RIGHT"
-    ],
-    [
-      "a01d43db-7c8e-4a5a-98dd-46ee21d0572a",
-      "Swerve Module BOTTOM RIGHT"
-    ],
-    [
-      "f5298bd4-e724-4b65-ab69-5b3c7cd5574e",
-      "Swerve Module FRONT LEFT"
-    ],
-    [
-      "b7474c8e-9854-47b1-8dda-28dc2ccfe2b0",
-      "Swerve Module BOTTOM LEFT"
-    ],
-    [
-      "ff128020-08ce-429c-9c19-a216696c3a0e",
-      "RADIO"
     ]
   ],
   "text_variables": {}
