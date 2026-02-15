@@ -2589,7 +2589,11 @@
 				(justify left bottom)
 			)
 		)
+<<<<<<< HEAD
 		(property "Sheetfile" "Radio.kicad_sch"
+=======
+		(property "Sheetfile" "untitled.kicad_sch"
+>>>>>>> 0e36183b0aca1a8da6c0df5f6d91ea86f079395f
 			(at 38.1 127.5846 0)
 			(effects
 				(font
