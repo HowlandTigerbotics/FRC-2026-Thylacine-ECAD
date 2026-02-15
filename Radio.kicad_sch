@@ -50,10 +50,4 @@
 		)
 		(uuid "b375a938-2022-4e1e-938b-d1b066b017ab")
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
