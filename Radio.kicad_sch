@@ -1,0 +1,59 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ee7859f-5996-4ca7-9737-1bce303e29b4")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 101.6 76.2)
+		(end 127 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47b6cf43-9ce9-4703-a31a-fc1ed7ffd144)
+	)
+	(hierarchical_label "12V_RADIO-"
+		(shape input)
+		(at 101.6 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11ee2997-40c3-491f-99ba-df1fa74c94f9")
+	)
+	(hierarchical_label "DATA"
+		(shape input)
+		(at 101.6 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "666b3231-e3d2-4ad6-936b-0cf8932d3ccb")
+	)
+	(hierarchical_label "12V_RADIO+"
+		(shape input)
+		(at 101.6 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b375a938-2022-4e1e-938b-d1b066b017ab")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
